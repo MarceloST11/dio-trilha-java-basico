@@ -1,18 +1,29 @@
-## Getting Started
+Projeto de Implementação Baseado no Lançamento do iPhone de 2007
+Este projeto é baseado no vídeo de lançamento do iPhone de 2007. O objetivo é criar um diagrama UML das classes e interfaces descritas abaixo e, em seguida, implementar essas classes e interfaces em arquivos .java.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Descrição do Projeto
+Você deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces conforme especificado.
 
-## Folder Structure
+Estrutura do Projeto
+Classes e Interfaces
+Reprodutor Musical
+Métodos:
 
-The workspace contains two folders by default, where:
+tocar()
+pausar()
+selecionarMusica(String musica)
+Aparelho Telefônico
+Métodos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+ligar(String numero)
+atender()
+iniciarCorreioVoz()
+Navegador na Internet
+Métodos:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+exibirPagina(String url)
+adicionarNovaAba()
+atualizarPagina()
+Instruções para Implementação
+Crie um diagrama UML das classes e interfaces utilizando uma ferramenta UML de sua preferência.
+Implemente as classes e interfaces em arquivos .java conforme descrito.
